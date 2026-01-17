@@ -150,10 +150,10 @@ const products = [
 
 // Cart Data
 let cart = [
-    // { id: 1, name: "Classic Denim Jacket", price: 59.99, quantity: 1, image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" },
-    // { id: 3, name: "Premium Leather Watch", price: 129.99, quantity: 1, image: "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" },
-    // { id: 6, name: "Handcrafted Necklace", price: 34.99, quantity: 2, image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" }
-    alert("Sorry, process ongoing. This feature is coming soon");
+    { id: 1, name: "Classic Denim Jacket", price: 59.99, quantity: 1, image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" },
+    { id: 3, name: "Premium Leather Watch", price: 129.99, quantity: 1, image: "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" },
+    { id: 6, name: "Handcrafted Necklace", price: 34.99, quantity: 2, image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" }
+
 
 ];
 
@@ -410,6 +410,9 @@ document.getElementById('search-icon').addEventListener('click', function () {
 document.getElementById('user-icon').addEventListener('click', function () {
     alert("⚠️ Sorry! This feature is not ready yet. Coming soon!.");
 });
+document.getElementById('cart-iconn').addEventListener('click', function () {
+    alert("⚠️ Sorry! This feature is not ready yet. Coming soon!.");
+});
 
 
 
@@ -577,6 +580,7 @@ ${product.link ? `
     overlay.appendChild(popup);
     document.body.appendChild(overlay);
 }
+
 
 
 
