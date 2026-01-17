@@ -91,7 +91,7 @@ const products = [
            
 
         ],
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSc7Js-A4OGLBZ7a-Apf6j3JqOu9JBUHoIKBRlm73K2BCxO3aA/viewform?usp=publish-editor"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSc7Js-A4OGLBZ7a-Apf6j3JqOu9JBUHoIKBRlm73K2BCxO3aA/viewform?usp=dialog"
     },
 
     {
@@ -575,4 +575,5 @@ ${product.link ? `
     overlay.appendChild(popup);
     document.body.appendChild(overlay);
 }
+
 
