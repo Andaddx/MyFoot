@@ -28,12 +28,12 @@ const products = [
             "Hardware Platform	Camera, Smartphone"
 
         ],
-        image: "img/d1.jpg",
+        image: "d1.jpg",
         images: [
-            "img/d2.jpg",
-            "img/d3.jpg",
-            "img/d7.jpg",
-            "img/d8.jpg"
+            "d2.jpg",
+            "d3.jpg",
+            "d7.jpg",
+            "d8.jpg"
 
         ],
         link: "https://docs.google.com/forms/d/e/1FAIpQLScj1Cyv9ZzsnhTQ2Ucx_k2vo30hla8vvLAsKPrOvzvYwnjPGQ/viewform?usp=dialog"
@@ -81,13 +81,13 @@ const products = [
             "Frequency Response: 20 Hz",
 
         ],
-        image: "img/dit1.jpg",
+        image: "dit1.jpg",
         images: [
-            "img/dit2.jpg",
-            "img/dit3.jpg",
-             "img/dit4.jpg",
-            "img/dit5.jpg",
-             "img/dit6.jpg",
+            "dit2.jpg",
+            "dit3.jpg",
+             "dit4.jpg",
+            "dit5.jpg",
+             "dit6.jpg",
            
 
         ],
@@ -575,3 +575,4 @@ ${product.link ? `
     overlay.appendChild(popup);
     document.body.appendChild(overlay);
 }
+
