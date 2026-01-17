@@ -402,13 +402,13 @@ function removeFromCart(productId) {
 document.getElementById('search-icon').addEventListener('click', function () {
     const searchTerm = prompt("What are you looking for?");
     if (searchTerm) {
-        alert(`Searching for "${searchTerm}"... (This is a demo - in a real site, this would show search results)`);
+        alert(`Searching for "${searchTerm}"... (⚠️ Sorry! This feature is not ready yet. Coming soon!)`);
     }
 });
 
 // User icon functionality
 document.getElementById('user-icon').addEventListener('click', function () {
-    alert("Account menu would open here. In a real site, this would show login/account options.");
+    alert("⚠️ Sorry! This feature is not ready yet. Coming soon!.");
 });
 
 
@@ -577,6 +577,7 @@ ${product.link ? `
     overlay.appendChild(popup);
     document.body.appendChild(overlay);
 }
+
 
 
 
